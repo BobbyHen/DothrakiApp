@@ -30,9 +30,9 @@ class App extends React.Component{
     
     console.log(data);
     this.setState({
-      translated: data.contents[0].translated,
-      text: data.contents[1].text,
-      translation: data.contents[2].translation,
+      translated: data.contents.translated,
+      text: data.contents.text,
+      translation: data.contents.translation,
       error: ""
     })
   }
