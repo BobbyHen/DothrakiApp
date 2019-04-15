@@ -3,7 +3,7 @@ import Title from "./components/Title";
 import Form from "./components/Form";
 import Dothraki from "./components/Dothraki";
 
-const api_key = "idkRVSCACR0PBHE_dIYYUQeF";
+const api_key = "";
 
 class App extends React.Component{
   state = {
