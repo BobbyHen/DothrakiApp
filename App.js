@@ -16,7 +16,7 @@ class App extends React.Component{
   getTranslator = async (e) => {
     e.preventDefault();
     const english = e.target.elements.english.value;
-    const api_call = await fetch("https://api.funtranslations.com/translate/dothraki.json?text=dragon", {
+    const api_call = await fetch(`https://api.funtranslations.com/translate/dothraki.json?text=dragon`, {
       body: "",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
